@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Getting started guide needs a complete local example",
+    "body": "I can read the docs but cannot run the first example.",
+    "reactions": 8,
+    "comments": 5,
+    "created_at": "2026-08-15T09:00:00Z"
+  },
+  {
+    "title": "Bug: resource export fails on malformed filter",
+    "body": "The export returns an error when a filter is empty.",
+    "reactions": 5,
+    "comments": 7,
+    "created_at": "2026-08-19T12:00:00Z"
+  },
+  {
+    "title": "Feature request: publish a tiny integration sample",
+    "body": "A minimal React example would reduce onboarding time.",
+    "reactions": 6,
+    "comments": 4,
+    "created_at": "2026-07-01T10:00:00Z"
+  }
+]

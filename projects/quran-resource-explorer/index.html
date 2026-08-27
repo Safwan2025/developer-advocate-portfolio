@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore Qur'anic resource categories, formats, provenance, and integration considerations.">
+  <title>Qur'an Resource Explorer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#resources">Skip to resources</a>
+  <header class="hero">
+    <nav class="wrap nav" aria-label="Demo navigation">
+      <a href="../">← Portfolio</a>
+      <a href="https://github.com/Safwan2025/developer-advocate-portfolio/tree/main/projects/quran-resource-explorer">Source on GitHub</a>
+    </nav>
+    <div class="wrap hero-copy">
+      <p class="eyebrow">Developer demo</p>
+      <h1>Explore Qur'anic resources with provenance in mind.</h1>
+      <p class="lede">A compact reference interface for discovering resource types, formats, and integration notes — without redistributing sacred text.</p>
+    </div>
+  </header>
+  <main id="resources" class="wrap">
+    <section class="controls" aria-label="Resource filters">
+      <label for="search">Search
+        <input id="search" type="search" placeholder="translation, audio, morphology…" autocomplete="off">
+      </label>
+      <label for="category">Category
+        <select id="category"><option value="all">All categories</option></select>
+      </label>
+    </section>
+    <p id="count" class="count" aria-live="polite"></p>
+    <section id="grid" class="grid" aria-label="Resource types"></section>
+  </main>
+  <footer class="wrap footer">Built as a developer-education sample. Verify source, version, identifiers, licensing, and text integrity before production use.</footer>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

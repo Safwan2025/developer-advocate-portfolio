@@ -1,0 +1,17 @@
+[
+  {
+    "surah_id": 1,
+    "ayah_number": 1,
+    "resource_id": "synthetic-demo"
+  },
+  {
+    "surah_id": 2,
+    "ayah_number": 1,
+    "resource_id": "synthetic-demo"
+  },
+  {
+    "surah_id": 2,
+    "ayah_number": 255,
+    "resource_id": "synthetic-demo"
+  }
+]
